@@ -59,10 +59,15 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
+/* set h styles */
+
 h1{
 	font-size: 80px;
 	text-align: center
 }
+
+/* set container styles */
+
 .container {
 	width: inherit;
 	margin: 20px 230px 50px 230px;
@@ -70,6 +75,8 @@ h1{
 	flex-direction: column;
 	align-content: flex-start;
 }
+
+/* set header styles */
 
 header {
 	width: 100%;
@@ -85,10 +92,12 @@ header a {
 	color: gray;
 }
 
+/* set top content styles */
+
 .top-content {
 	width: 100%;
 	border-bottom: 1px solid black;
-	padding-bottom: 50px;
+	padding-bottom: 60px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -106,6 +115,16 @@ button{
 	border: 1px solid black;
 	padding: 5px 50px;
 }
+
+.top-image{
+	width: 50%;
+}
+
+.top-image img{
+	width: 100%
+}
+/* set middle content styles */
+
 .middle-content {
 	padding-bottom: 30px;
 }
@@ -130,6 +149,8 @@ button{
 	margin-right: 10px;
 }
 
+/* set bottom content styles */
+
 .bottom-content{
 	width: 30%;
 	margin-top: 30px;
@@ -140,9 +161,13 @@ button{
 	padding-bottom: 10px;
 }
 
+/* set footer styles */
+
 footer{
 	width: auto;
 	padding: 30px 0px;
 	display: flex;
 	justify-content: center;
 }
+
+/* finish! */
